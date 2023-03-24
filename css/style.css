@@ -24,8 +24,8 @@ ul {
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
 }
 
 .btn {
@@ -55,24 +55,25 @@ ul {
 .header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 100%;
 }
 
 .header-logo {
-    margin-right: auto;
+    margin-right: 147px;
 }
 
 .header-navigation-list {
     display: flex;
-    
+    margin: auto;
 }
 
 .header-navigation-item:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 62px;
 }
 
 .header-btn {
-    margin-left: 85px;
+    margin-left: 87px;
 }
 
 /* Offer section */
