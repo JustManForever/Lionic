@@ -30,6 +30,10 @@
     box-sizing: border-box;
 }
 
+h1, h2 {
+    margin-top: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -63,6 +67,7 @@ ul {
     background-color: #3172b9;
     font-size: 15px;
     line-height: 1;
+    font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-align: center;
@@ -116,29 +121,68 @@ ul {
 
 /* Offer section */
 
+.section-offer {
+   background-image: linear-gradient(90deg, white 58%, transparent), url(../img/Base.jpg) ;
+   background-repeat: no-repeat no-repeat;
+   background-position: right center;
+   background-size: contain;
+   border-top: 1px solid #e4e4e4;
+}
+
 .offer-container {
     padding-top: 124px;
-    padding-bottom: 138px;
+    padding-bottom: 134px;
 }
 
 .offer-content {
-    max-width: 50%;
+    max-width: 45%;
 }
 
 .offer-title {
     margin-bottom: 32px;
     font-size: 40px;
+    line-height: 52px;
+    font-weight: 300;
+    color: #1c1c1c;
 }
 
 .offer-description {
+    width: 85%;
     margin-bottom: 36px;
     font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #787878;
+}
+
+.section-offer-action {
+    display: inline-block;
 }
 
 .offer-link-btn {
     margin-bottom: 18px;
-    padding: 22px 49px;
+    padding: 23px 49px;
     font-size: 17px;
+}
+
+.offer-conteiner-ssl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 400;
+    color: #787878;
+}
+
+.offer-ssl-icon {
+    display: inline-block;
+    margin-right: 13px;
+    height: 17px;
+    width: 14px;
+    background: url(../img/Shield-icon.svg) center center no-repeat transparent;
+    background-size: contain;
 }
 
 /* Services */
