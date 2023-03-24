@@ -1,3 +1,31 @@
+/* open-sans-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/open-sans-v34-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v34-latin-300.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* open-sans-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v34-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* open-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/open-sans-v34-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v34-latin-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
 * {
     box-sizing: border-box;
 }
@@ -11,7 +39,7 @@ img {
 }
 
 html {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -33,7 +61,7 @@ ul {
     padding: 20px 35px;
     border-radius: 4px;
     background-color: #3172b9;
-    font-size: 11px;
+    font-size: 15px;
     line-height: 1;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -69,11 +97,21 @@ ul {
 }
 
 .header-navigation-item:not(:last-child) {
-    margin-right: 62px;
+    margin-right: 54px;
+}
+
+.header-navigation-item .item-link {
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.item-link.active {
+    color: #3172b9;
 }
 
 .header-btn {
-    margin-left: 87px;
+    margin-left: 84px;
 }
 
 /* Offer section */
