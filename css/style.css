@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 35px;
+    border-radius: 4px;
+    background-color: #3172b9;
+    font-size: 11px;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Header */
+
+.header {
+    height: 110px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+.header-navigation-list {
+    display: flex;
+    
+}
+
+.header-navigation-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-btn {
+    margin-left: 85px;
+}
+
+/* Offer section */
+
+.offer-container {
+    padding-top: 124px;
+    padding-bottom: 138px;
+}
+
+.offer-content {
+    max-width: 50%;
+}
+
+.offer-title {
+    margin-bottom: 32px;
+    font-size: 40px;
+}
+
+.offer-description {
+    margin-bottom: 36px;
+    font-size: 16px;
+}
+
+.offer-link-btn {
+    margin-bottom: 18px;
+    padding: 22px 49px;
+    font-size: 17px;
+}
+
+/* Services */
+
+.section-services {
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.services-title {
+    font-size: 36px;
+}
+
+.services-description {
+    margin-top: 36px;
+    font-size: 16px;
+}
+
+.services-list {
+    display: flex;
+    margin-top: 53px;
+}
+
+.services-item:not(:last-child) {
+    margin-right: 29px;
+}
+
+.services-item {
+    outline: 1px solid red;
+}
+
+/* Footer */
+
+.footer-social-icon {
+    display: inline-block;
+    width: 18px;
+    height: 15px;
+    background-image: url(../img/Twitter.svg);
+    background-size: 18px 15px;
+    background-repeat: no-repeat;
+    color: black;
+}
