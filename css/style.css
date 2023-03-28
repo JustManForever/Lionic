@@ -328,6 +328,27 @@ ul {
 }
 
 
+/* Contacts */
+
+.section-contacts {
+    padding-top: 76px;
+    padding-bottom: 168px;
+}
+
+.contacts-title {
+    margin-bottom: 121px;
+    font-size: 36px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #414141;
+}
+
+.contacts-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 /* Footer */
 
 .footer-social-icon {
