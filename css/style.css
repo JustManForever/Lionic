@@ -116,6 +116,11 @@ ul {
 
 /* Offer section */
 
+.section-offer {
+    background: url(../img/Base.jpg) center right no-repeat white,
+                linear-gradient(90deg, white, transparent) center left no-repeat;
+}
+
 .offer-container {
     padding-top: 124px;
     padding-bottom: 138px;
